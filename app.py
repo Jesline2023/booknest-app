@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to BookNest Online Bookstore!"
+    return "Welcome to BookNest! User authentication is coming soon."
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
